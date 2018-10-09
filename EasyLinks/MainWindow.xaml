@@ -1,0 +1,59 @@
+﻿<Window x:Class = "XAMLButton.MainWindow" 
+   xmlns = "http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+   xmlns:x = "http://schemas.microsoft.com/winfx/2006/xaml" 
+   Title = "Easy Links" Height = "269.327" Width = "253.58">
+
+    <Grid>
+
+        <StackPanel Margin = "10">
+
+            <Button x:Name = "button1"  
+            Content = "Google" 
+            Click = "OnClick1"  
+            ClickMode = "Press" 
+            Margin = "10"  
+            Width = "150"  
+            HorizontalAlignment = "Center"  
+            Foreground = "DarkBlue"/>
+
+            <Button x:Name = "button2"  
+                Content = "Reddit" 
+                Click = "OnClick2"  
+                ClickMode = "Press" 
+                Margin = "24.5,10"  
+                Width = "150"  
+                HorizontalAlignment = "Center"  
+                Foreground = "DarkBlue"/>
+
+            <Button x:Name = "button3"  
+                Content = "Analytics" 
+                Click = "OnClick3"  
+                ClickMode = "Press" 
+                Margin = "24.5,10"  
+                Width = "150"  
+                HorizontalAlignment = "Center"  
+                Foreground = "DarkBlue"/>
+
+            <Button x:Name = "button4"  
+                Content = "Search Analytics" 
+                Click = "OnClick4"  
+                ClickMode = "Press" 
+                Margin = "24.5,10"  
+                Width = "150"  
+                HorizontalAlignment = "Center"  
+                Foreground = "DarkBlue"/>
+
+            <Button x:Name = "button5"  
+                Content = "All" 
+                Click = "OnClick5"  
+                ClickMode = "Press" 
+                Margin = "24.5,10"  
+                Width = "150"  
+                HorizontalAlignment = "Center"  
+                Foreground = "DarkBlue"/>
+
+        </StackPanel>
+
+    </Grid>
+
+</Window>
